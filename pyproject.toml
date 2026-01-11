@@ -1,14 +1,17 @@
 [project]
 name = "rag101"
 version = "0.1.0"
-description = "Add your description here"
+description = "RAG Document Chat System"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<4.0"
 dependencies = [
-    "jupyter>=1.1.1",
-    "ollama>=0.6.1",
-    "pinecone>=6.0.0",
-    "pypdf>=6.6.0",
-    "python-dotenv>=1.2.1",
-    "streamlit>=1.52.2",
+    "ollama>=0.4.6",
+    "pinecone-client>=6.0.0",
+    "pypdf>=5.1.0",
+    "python-dotenv>=1.0.1",
+    "streamlit>=1.41.1",
 ]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
