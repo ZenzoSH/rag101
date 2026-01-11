@@ -34,7 +34,16 @@ ollama pull hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF
 streamlit run main.py
 ```
 
+last upadted 11 Jan 2026 at 9:47 PM
+Sunday
+9:47 PM
+
+
+Still in progress..Testing and running right now.
+
+
 ## Usage
 1. Upload documents via sidebar
 2. Click "Process Documents"
 3. Start chatting!
+
